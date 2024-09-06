@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
+    <!-- Font awesome cdn link start -->
+    <script src="https://kit.fontawesome.com/7a4507e9b3.js" crossorigin="anonymous"></script>
+    <!-- Font awesome cdn link start -->
     <!-- google font cdn start -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +22,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        primary : '#FF4240',
+                        secondary : '#131318',
                     },
                     fontFamily: {
                         manrope : ['Manrope','sans-serif'],
@@ -32,6 +36,74 @@
 
 </head>
 <body class="font-manrope">
-    
+    <!-- header section start  -->
+     <header class="container mx-auto px-3 sm:px-7 md:px-15 lg:px-20">
+        <!-- navbar start -->
+         <nav class="py-3 md:py-4 lg:py-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                            <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Home</a></li>
+                            <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">About</a></li>
+                            <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Pages</a></li>
+                            <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Blog</a></li>
+                            <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-md sm:text-xl md:text-2xl lg:text-3xl font-extrabold">Hockey<span class="text-primary">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 space-x-5">
+                        <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Home</a></li>
+                        <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">About</a></li>
+                        <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Pages</a></li>
+                        <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Blog</a></li>
+                        <li><a class="hover:text-primary text-xs md:text-sm lg:text-base font-normal">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-5">
+                    <i class="fa-solid fa-magnifying-glass text-md text-gray-600 hidden md:flex "></i>
+                    <a class="btn bg-primary text-white  md:px-4 lg:px-5">Get Ticket</a>
+                </div>
+            </div>
+         </nav>
+        <!-- navbar end  -->
+        <!-- slider start -->
+         <section>
+            <div class="relative">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp" class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 md:py-4 lg:6 w-full md:">
+
+                </div>
+            </div>
+         </section>
+        <!-- slider end -->
+     </header>
+    <!-- header section end  -->
+    <!-- main section start -->
+     <main>
+
+     </main>
+    <!-- main section end  -->
+    <!-- footer section start -->
+     <footer>
+
+     </footer>
+    <!-- footer section end -->
 </body>
 </html>
